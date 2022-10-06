@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+  head
+    link(rel="stylesheet", href="style.css")
+    title URL_SHORTENER
+  body 
+  nav 
+    h2 Short Url
+  main 
+    form(action="/createUrls", method="post")
+      h2 URL_SHORTENER
+      input(type="url",required,placeholder="ENTER LONG URL",name="url")
+      button(type="submit") SHORT URL
+      div
+        each url in urls
+          p=url.longUrl
+          a(href=`${url.longUrl}`)= url.shortUrl

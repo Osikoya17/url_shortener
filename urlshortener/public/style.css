@@ -1,0 +1,56 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+nav{
+    background-color: rgb(83, 121, 136);
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav h2{
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+form{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+}
+form input{
+    width: 50%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+form button{
+    width: 20%;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(83, 121, 136);
+    cursor: pointer;
+}
+form div{
+    margin-top:5%;
+    padding:4px;
+    width: 500px;
+    height: 110px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:center;
+}
